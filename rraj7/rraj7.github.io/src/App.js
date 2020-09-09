@@ -28,7 +28,7 @@ class App extends React.Component {
         text: 'Checkout some of my projects'
       },
       about: {
-        title: "Let's know me more...!",
+        title: 'ABout me',
       },
       contact: {
         title: 'Lets talk'

@@ -5,9 +5,9 @@ function CardInfo(props){
 
     const style = useSpring({opacity: 1, from:{opacity: 0}});
     return (
-        <animated.div className = "r-card-info" style={style}>
-            <p className = 'r-card-title'>{props.title}</p>
-            <p className = "r-card-sub-title">{props.subtitle}</p>
+        <animated.div className = "" style={style}>
+            <p>{props.title}</p>
+            <p>{props.subtitle}</p>
             <a href = {props.link} target="_blank" rel ="noopener noreferrer">View</a>
         </animated.div>
         
