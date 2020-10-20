@@ -1,0 +1,142 @@
+{
+  "main": {
+    "name":"Rishi Raj",
+    "description":"I am a Software Engineer with interest in Web Application development. I love coding in Python, Javascript and have started to be amazed by the power of React.js recently!",
+    "image":"profilepic.jpg",
+    "bio":"I've started to work in Full-Stack development and have been loving learning the integration of Front-end and backend. I've experience in various programming languages and database technologies.",
+    "contactmessage":"Please feel free to get in touch with me for any job realted information or if you just like to work in the project with me",
+    "email": "rishiraj3107@gmail.com",
+    "phone": "312-964-2420",
+    "github":"https://github.com/rraj7",
+    "project":"https://drive.google.com/file/d/1_VdP8RY1WG0TE-j86yPQ6o85pecmGWss/view?usp=sharing",
+    "address":{
+      "street":"(W Taylor St)",
+      "city":"(Chicago)",
+      "state":"(IL)",
+      "zip": "(60607)"
+    },
+    "website": "",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://facebook.com/rishiraj31",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com/coolest_rishi",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/rishiraj31/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/rishi_raj31",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/rraj7",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University of Illinois at Chicago",
+        "degree":"Masters in Computer Engineering",
+        "graduated":"May 2020",
+        "description":"Majored in Software Development and Machine learning"
+      },
+      {
+        "school":"KIIT University, INDIA",
+        "degree":"B.Tech in Electronics and Communication Enginnering",
+        "graduated":"May 2017",
+        "description":"Majoring in Computer Engineering with focus on Networking."
+      }
+    ],
+    "work":[
+      {
+        "company":"Accenture",
+        "title":"Associate Software Developer",
+        "years":"May 2017 -Jun 2018",
+        "description":"Working as a developer in ICM Callidus Cloud Project. "
+      },
+      {
+        "company":"Ontoadaptive",
+        "title":"Full-Stack Intern",
+        "years":"Jul 2020 - Sep 2020",
+        "description":"Working on integration of a web-app to test a protoype product. Stack included React.js, Python, Postgres"
+      },
+      {
+        "company":"UIC - CBA",
+        "title":"Graduate Assistant",
+        "years":"Dec 2018 -May 2020",
+        "description": "Web Developer and Network Admin for the department of CBA, UIC"
+      }
+
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"75%"
+      },
+      {
+        "name":"Node.js",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"SQL",
+        "level":"80%"
+      },
+      {
+        "name":"C++",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"40%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Scavenger Hunt Game",
+        "category":"Scavanger Hunt Game designed in MEVN stack",
+        "image":"scavanger.jpg",
+        "url":"https://github.com/rraj7/ScavengerHunt"
+      },
+      {
+        "title":"Vehicle Detection with HOG",
+        "category":"Vehicle detection and classification project created using CV Algorithm Histogram of Gradient (HOG)",
+        "image":"vehicle.jpg",
+        "url":"https://github.com/rraj7/VehicleDetectionWithHOG"
+      },
+      {
+        "title":"WiFi direct app in Android",
+        "category":"The Android Project to check the file transfer in 2 devices using Wifi",
+        "image":"android.jpg",
+        "url":"https://github.com/rraj7/Android_WiFi_Direct_Project"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"portfolio.jpg",
+        "url":"https://github.com/rraj7/Portfolio"
+      }
+      
+      
+    ]
+  }
+}

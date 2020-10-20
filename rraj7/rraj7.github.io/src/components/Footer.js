@@ -1,25 +1,34 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React, { Component } from 'react';
 
-function Footer(){
+class Footer extends Component {
+  render() {
+
+    if(this.props.data){
+      var networks= this.props.data.social.map(function(network){
+        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      })
+    }
+
     return (
-        <footer className ="mt-5">
-            <Container fluid = {true}>
-                <Row className = "border-top justify-content-between p-3">
-                    <Col className = "p-0" md ={3} sm={12}>
-                        Rishi Raj
-                    </Col>
-                    <Col className ="p-0 d-flex justify-content-end"  md= {4}>
-                        Development Server by Rishi labs 
-                    </Col>
-                </Row>
-            </Container>
+      <footer>
 
+     <div className="row">
+        <div className="twelve columns">
+           <ul className="social-links">
+              {networks}
+           </ul>
 
-        </footer>
+           <ul className="copyright">
+              <li>&copy; Copyright 2020 Rishi Raj</li>
+              {/* <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li> */}
+           </ul>
+
+        </div>
+        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+     </div>
+  </footer>
     );
+  }
 }
 
 export default Footer;

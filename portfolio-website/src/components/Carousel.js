@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 
-import Card from './Card';
+import Card from './Calsrd';
 import img1 from '../assets/1.jpg';
 import img2 from '../assets/2.JPG';
 import img3 from '../assets/3.jpg';
